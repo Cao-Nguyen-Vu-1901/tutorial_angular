@@ -1,0 +1,23 @@
+<header class='header'>
+    <div class='container'>
+      <div class='logo'>
+        <a routerLink='/'>MyAngularApp</a>
+      </div>
+      <nav class='nav'>
+        <ul class='nav-list'>
+          <li class='nav-item'>
+            <a routerLink='/' routerLinkActive='active' [routerLinkActiveOptions]='{exact: true}'>Trang chủ</a>
+          </li>
+          <li class='nav-item'>
+            <a routerLink='/products' routerLinkActive='active'>Sản phẩm</a>
+          </li>
+          <li class='nav-item'>
+            <a routerLink='/contact' routerLinkActive='active'>Liên hệ</a>
+          </li>
+        </ul>
+      </nav>
+      <div class='user-actions'>
+        <button class='btn btn-primary'>Đăng nhập</button>
+      </div>
+    </div>
+  </header>
